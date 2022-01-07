@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.0.11"
+  },
+  "scripts": {
+    "build-css": "npx tailwindcss -i input.css -o ./docs/style.css --watch"
+  },
+  "dependencies": {
+    "gsap": "^3.9.1"
+  }
+}
